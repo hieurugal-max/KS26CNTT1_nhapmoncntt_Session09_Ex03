@@ -1,0 +1,45 @@
+Bài 3: Onboarding lập trình viên mới
+
+1. Báo cáo phân tích (I/O)
+
+Input: Nội dung hướng dẫn cài đặt VS Code viết bằng Markdown.
+
+Output: Tài liệu hiển thị trên StackEdit, có đoạn code Python được tô màu, bảng so sánh hai công cụ và danh sách kiểm tra cài đặt.
+
+2. Hướng dẫn cài đặt VS Code
+
+- Bước 1: Truy cập https://code.visualstudio.com/ để tải VS Code.
+- Bước 2: Chạy file vừa tải và tiến hành cài đặt.
+- Bước 3: Mở VS Code sau khi cài đặt xong.
+
+Trong Python, biến `name` dùng để lưu tên người dùng.
+
+3. Code Python
+
+python
+name = "Nam"
+language = "Python"
+
+def introduce(name, language):
+    print("Xin chao", name)
+    print("Ngon ngu dang hoc:", language)
+
+introduce(name, language)
+
+4. So sánh StackEdit và VS Code
+Tiêu chí                StackEdit                     VS Code
+Cách sử dung            Trực tuyến                    Cài đặt trên máy
+Công dung               Viết tài liệu Markdown        Viết và chỉnh sửa code
+Ưu điểm                 Dễ sử dung                    Có nhiều tiện ích hỗ trợ lập trình
+
+5. Kiểm tra tiến độ cài đặt
+
+- Tải VS Code.
+- Cài đặt chương trình.
+- Mở VS Code.
+- Tạo file Python.
+- Chạy thử đoạn code.
+
+6. Ký tự Escape
+
+Dùng dấu `\` trước ký tự đặc biệt để Markdown không định dạng ký tự đó.
